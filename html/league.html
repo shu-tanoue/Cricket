@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <head>
+      <link
+        href="https://fonts.googleapis.com/css?family=Roboto"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <link rel="stylesheet" href="/West-Vancoucer-Clicket-Club/css/catStyle.css" />
+      <link rel="stylesheet" href="/West-Vancoucer-Clicket-Club/scss/index.css" />
+      <link rel="stylesheet" href="/West-Vancoucer-Clicket-Club/scss/menu-hamburguer.css"/>
+    </head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".read").click(function () {
+          $(this).prev().toggle();
+          $(this).siblings(".dots").toggle();
+          if ($(this).text() == "read more") {
+            $(this).text("read less");
+          } else {
+            $(this).text("read more");
+          }
+        });
+      });
+    </script>
+  </head>
+
+  <body onload="startInterval()">
+    <nav>
+      <div class="nav_bar">
+        <div class="logo">
+          <img src="/West-Vancoucer-Clicket-Club/images/logo1.png" alt="" class="logo" />
+        </div>
+        <!--## LOGO ##-->
+        <div class="menu-wrap">
+          <input type="checkbox" class="toggler" />
+          <div class="hamburger">
+            <div></div>
+          </div>
+          <div class="box-menu">
+            <div>
+              <div>
+                <ul class="menu">
+                  <li><a href="/West-Vancoucer-Clicket-Club/index.html">HOME</a></li>
+                  <li>
+                    <!-- ABOUT -->
+                    <a href="about.html">ABOUT</a>
+                    <ul>
+                      <li><a href="about.html">ABOUT WVCC</a></li>
+                      <li><a href="about.html#clubManagement">CLUB MANAGEMENT</a></li>
+                      <li><a href="about.html#lifeMembers">LIFE MEMBERS</a></li>
+                      <li><a href="about.html#programs">PROGRAMS</a></li>
+                      <li><a href="about.html#facilities">FACILITIES</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <!-- CATEGORY -->
+                    <a href="#">CATEGORY</a>
+                    <ul>
+                      <li>
+                        <a href="league.html">LEAGUE</a>
+                        <ul>
+                          <li><a href="#">TEAMS</a></li>
+                          <li><a href="#">TRAINING</a></li>
+                          <li><a href="#">INDOOR TRAINING</a></li>
+                          <li><a href="#">SCHEDULE</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="junior.html">JUNIOR</a>
+                        <ul>
+                          <li><a href="#">PROGRAMS</a></li>
+                          <li><a href="#">SCHOOL CRICKET</a></li>
+                          <li><a href="#">SUMMER CAMP</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="women.html">WOMEN'S</a>
+                        <ul>
+                          <li><a href="#">TEAM</a></li>
+                          <li><a href="#">SCHEDULE</a></li>
+                          <li><a href="#">TRAINING</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <!-- CLUBHOUSE -->
+                    <a href="clubhouse.html">CLUBHOUSE</a>
+                    <ul>
+                      <li><a href="#">RENTAL</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <!-- CONTACT US -->
+                    <a href="contact.html">CONTACT US</a>
+                    <ul>
+                      <li><a href="#">LOCATION AND DIRECTIONS</a></li>
+                      <li><a href="#">NEWSLETTER SIGNUP</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- ## END MENU ## -->
+        </div>
+        <!-- ## MENU-WRAP ## -->
+      </div>
+      <!--## NAV BAR ## -->
+    </nav><!-- ## NAV ## -->
+
+    <!--<div id="picGlry"></div> -->
+
+    <div class="top">
+      <img src="/West-Vancoucer-Clicket-Club/images/league2.jpg" alt="" style="max-width: 100%;" />
+    </div>
+
+    <!-- for iphoneX-->
+    <section id="sec0">
+      <div class="sec0-container">
+        <div class="x-outdoor">
+          <a href="#sec1"
+            ><img src="/West-Vancoucer-Clicket-Club/images/iphone1.jpg" alt="outdoor" />
+            <div class="centered">OUTDOOR</div></a
+          >
+        </div>
+        <div class="x-indoor">
+          <a href="#sec2"
+            ><img src="/West-Vancoucer-Clicket-Club/images/iphone2.jpg" alt="indoor" />
+            <div class="centered">INDOOR</div></a
+          >
+        </div>
+        <div class="x-team">
+          <a href="#sec3"
+            ><img src="/West-Vancoucer-Clicket-Club/images/iphone3.jpg" alt="team" />
+            <div class="centered">TEAM</div>
+          </a>
+        </div>
+        <div class="x-schedule">
+          <a href="#sec4"
+            ><img src="/West-Vancoucer-Clicket-Club/images/iphone4.jpg" alt="schedule" />
+            <div class="centered">SCHEDULE</div></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <br /><br /><br />
+    <section id="sec1">
+      <div class="description">
+        <br />
+        <br />
+        <hr />
+        <h1 class="title">
+          OUTDOOR TRAINING - starts in early April at Hugo Ray Park (weather
+          dependent)
+        </h1>
+        <p>
+          With the regular season starting on the last weekend of April, outdoor
+          training commences once the weather permits. This is usually the first
+          week of April. Please check this page in the spring for the training
+          program. We have 2 permanent nets and one portable net for centre
+          wicket practice.
+        </p>
+        <br />
+        <br />
+        <div class="imgContainer">
+          <img src="/West-Vancoucer-Clicket-Club/images/iphone1.jpg" alt="outdoor" class="cricketImgs" />
+        </div>
+        <br />
+        <br />
+        <div class="schdl">
+          <div>
+            <p>Club practices are held as follows:</p>
+          </div>
+          <div>
+            <br />
+            <p><em>Monday - wowen's training (6 - 8 pm)</em></p>
+            <p style="color: darksalmon;">
+              <em>Tuesday - club practice (5:30 - 8 pm)</em>
+            </p>
+            <p>
+              <em
+                >Thursday - optional club practice (needs to be coordinated with
+                the junior cricket coordinator)</em
+              >
+            </p>
+            <p><em>Thursdays - junior program (6 - 8 pm)</em></p>
+            <p>
+              The pre-season Twenty20 cricket will start on March 17 and the
+              regular season begins in late April. The regular season is 19
+              weeks in duration with 18 matches - all limited overs games. That
+              means that each team will have one bye during the regular season.
+              The playoffs start on the first weekend in September
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <hr />
+        <div class="links">
+          <a href="#sec2"
+            ><p class="words">Indoor Training</p>
+            <p class="arrows">&darr;</p></a
+          >
+        </div>
+      </div>
+
+      <div class="description2">
+        <h1 class="title">OUTDOOR TRAINING</h1>
+        <p>
+          With the regular season starting on the last weekend of April, outdoor
+          training commences once the weather permits.This is usually the first
+          week of April. Please check this page in the spring for the training
+          program. We have 2 permanent nets and one portable net for centre
+          wicket practice. Club practices are held as follows
+        </p>
+        <span class="more">
+          <p><em>Monday - wowen's training (6 - 8 pm)</em></p>
+          <p style="color: darksalmon;">
+            <em>Tuesday - club practice (5:30 - 8 pm)</em>
+          </p>
+          <p>
+            <em
+              >Thursday - optional club practice (needs to be coordinated with
+              the junior cricket coordinator)</em
+            >
+          </p>
+          <p><em>Thursdays - junior program (6 - 8 pm)</em></p>
+          <br />
+          <p>
+            The pre-season Twenty20 cricket will start on March 17 and the
+            regular season begins in late April. The regular season is 19 weeks
+            in duration with 18 matches - all limited overs games. That means
+            that each team will have one bye during the regular season. The
+            playoffs start on the first weekend in September
+          </p>
+        </span>
+        <button class="read">read more</button>
+        <br />
+        <br />
+        <div class="links">
+          <a href="#sec2"
+            ><p class="words">Indoor Training</p>
+            <p class="arrows">&darr;</p></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="sec2">
+      <div class="description">
+        <div class="links">
+          <a href="#sec1"
+            ><p class="arrows">&uarr;</p>
+            <p class="words">Outdoor Training</p></a
+          >
+        </div>
+        <hr />
+        <br />
+        <br />
+        <h1 class="title">INDOOR TRAINING - WINTER 2018</h1>
+        <br />
+        <p>
+          Indoor training will begin on Saturday, January 20th, 2018. Indoor
+          training will continue until the weather improves and we can move
+          outdoors. The indoor training sessions are open to all members, new
+          and potential players for the 2018 season.
+        </p>
+        <p>
+          For insurance and legal purposes, all participants MUST be insured by
+          registering with the Club and BCMCL. If you played last season, you
+          are still covered until February 1, 2018. Registration forms will be
+          available for participants to sign at the indoor centre. New players
+          must sign registration form to participate.
+        </p>
+        <br />
+        <div class="imgContainer">
+          <img src="/West-Vancoucer-Clicket-Club/images/iphone2.jpg" alt="indoor" class="cricketImgs" />
+        </div>
+        <br />
+        <br />
+        <p><em>Date: January 20 to mid-March</em></p>
+        <p><em>Time: 6 to 8 pm</em></p>
+        <p>
+          <em
+            >Cost: Participants will pay $50 for the full indoor training
+            prorgam (8 sessions)</em
+          >
+        </p>
+        <p><em>Address: Surrey</em></p>
+        <p>
+          The pre-season Twenty20 cricket will start on March 17 and the regular
+          season begins in late April. The regular season is 19 weeks in
+          duration with 18 matches - all limited overs games. That means that
+          each team will have one bye during the regular season. The playoffs
+          start on the first weekend in September
+        </p>
+        <p>
+          For more information, please contact Alex Turko #778-229-7858 or
+          email:<a href="" style="color: blue;"
+            >alex@westvancouvercricketclub.ca</a
+          >
+          <span style="color: blue;"></span>
+        </p>
+        <br />
+        <br />
+        <hr />
+        <div class="links">
+          <a href="#sec3"
+            ><p class="words">Team</p>
+            <p class="arrows">&darr;</p></a
+          >
+        </div>
+      </div>
+
+      <div class="description2">
+        <div class="links">
+          <a href="#sec1"
+            ><p class="arrows">&uarr;</p>
+            <p class="words">Outdoor Training</p></a
+          >
+        </div>
+        <hr />
+        <br />
+        <br />
+        <h1 class="title">INDOOR TRAINING - WINTER 2018</h1>
+        <br />
+        <p>
+          Indoor training will begin on Saturday, January 20th, 2018. Indoor
+          training will continue until the weather improves and we can move
+          outdoors. The indoor training sessions are open to all members, new
+          and potential players for the 2018 season.
+        </p>
+        <span class="more">
+          <p>
+            For insurance and legal purposes, all participants MUST be insured
+            by registering with the Club and BCMCL. If you played last season,
+            you are still covered until February 1, 2018. Registration forms
+            will be available for participants to sign at the indoor centre. New
+            players must sign registration form to participate.
+          </p>
+          <p><em>Date: January 20 to mid-March</em></p>
+          <p><em>Time: 6 to 8 pm</em></p>
+          <p>
+            <em
+              >Cost: Participants will pay $50 for the full indoor training
+              prorgam (8 sessions)</em
+            >
+          </p>
+          <p><em>Address: Surrey</em></p>
+          <p>
+            The pre-season Twenty20 cricket will start on March 17 and the
+            regular season begins in late April. The regular season is 19 weeks
+            in duration with 18 matches - all limited overs games. That means
+            that each team will have one bye during the regular season. The
+            playoffs start on the first weekend in September
+          </p>
+        </span>
+        <button class="read">read more</button>
+        <br />
+        <br />
+        <div class="links">
+          <a href="#sec3"
+            ><p class="words">Team</p>
+            <p class="arrows">&darr;</p></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="sec3">
+      <div class="description">
+        <div class="links">
+          <a href="#sec2"
+            ><p class="arrows">&uarr;</p>
+            <p class="words">Indoor Training</p></a
+          >
+        </div>
+        <hr />
+        <br />
+        <br />
+        <h1 class="title">TEAMS REGISTERED FOR 2015 SEASON</h1>
+        <br />
+        <div class="imgContainer">
+          <img src="/West-Vancoucer-Clicket-Club/images/iphone3.jpg" alt="indoor" class="cricketImgs" />
+        </div>
+        <br />
+        <br />
+        <ul>
+          <li>
+            7 competitive men's teams registered with the BC Mainland Cricket
+            League (BCMCL)
+          </li>
+          <li>1 women's cricket teams with the BCMCL</li>
+          <li>
+            1 (maybe 2 if we have the numbers) Under 16's hardball cricket teams
+            with the Vancouver & District Saturday Morning Cricket League
+            (VDSMCL)
+          </li>
+          <li>2 Under 12's Kanga (softball) cricket teams</li>
+          <li>Over 40's West Vancouver Taverners</li>
+        </ul>
+
+        <h1>Player registration begins in January</h1>
+        <p>
+          Junior player registration will be held 9 am on Saturday, April 25,
+          2015 at the West Vancouver Cricket Clubhouse - Hugo Ray Park.
+          Registration forms for the 2015 season will be placed on this page
+          once they become available.
+        </p>
+        <br />
+        <br />
+        <hr />
+        <div class="links">
+          <a href="#sec4"
+            ><p class="words">Schedule</p>
+            <p class="arrows">&darr;</p></a
+          >
+        </div>
+      </div>
+      <div class="description2">
+        <div class="links">
+          <a href="#sec2"
+            ><p class="arrows">&uarr;</p>
+            <p class="words">Indoor Training</p></a
+          >
+        </div>
+        <hr />
+        <br />
+        <br />
+        <h1>TEAMS REGISTERED FOR 2015 SEASON</h1>
+        <ul>
+          <li>
+            7 competitive men's teams registered with the BC Mainland Cricket
+            League (BCMCL)
+          </li>
+          <li>1 women's cricket teams with the BCMCL</li>
+          <li>
+            1 (maybe 2 if we have the numbers) Under 16's hardball cricket teams
+            with the Vancouver & District Saturday Morning Cricket League
+            (VDSMCL)
+          </li>
+          <li>2 Under 12's Kanga (softball) cricket teams</li>
+          <li>Over 40's West Vancouver Taverners</li>
+        </ul>
+
+        <h1>Player registration begins in January</h1>
+        <p>
+          Junior player registration will be held 9 am on Saturday, April 25,
+          2015 at the West Vancouver Cricket Clubhouse - Hugo Ray Park.
+          Registration forms for the 2015 season will be placed on this page
+          once they become available.
+        </p>
+        <br />
+        <br />
+        <hr />
+        <div class="links">
+          <a href="#sec4"
+            ><p class="words">Schedule</p>
+            <p class="arrows">&darr;</p></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="sec4">
+      <div class="description">
+        <div class="links">
+          <a href="#sec3"
+            ><p class="arrows">&uarr;</p>
+            <p class="words">Team</p></a
+          >
+        </div>
+        <hr />
+        <br />
+        <br />
+        <div style="padding: 10px;">
+          <h1 class="title">2019 SEASON - SCHEDULE</h1>
+          <br />
+          <p>
+            The BC Mainland Cricket League (BCMCL) is responsible for the
+            schedule and it will be published once the club receives it from the
+            league. The schedeule is usually available in early April. The club
+            plays every Saturday and Sunday at Hugo Ray Park and also travels to
+            other grounds in Metro Vancouver, the Fraser Valley and the
+            Okanagan.
+          </p>
+          <br />
+          <div class="imgContainer">
+            <img src="/West-Vancoucer-Clicket-Club/images/iphone4.jpg" alt="indoor" class="cricketImgs" />
+          </div>
+          <br />
+          <br />
+          <h1>
+            For the 2019 season the club has registered the following teams:
+          </h1>
+          <ul>
+            <li>1st XI - Premier Division</li>
+            <li>2nd XI - Premier Division</li>
+            <li>3rd XI - Division 1</li>
+            <li>4th XI - Division 3</li>
+            <li>5th XI - Division 4</li>
+            <li>6th XI - Division 6</li>
+            <li>7th XI - Division 7 (mostly junior players)</li>
+            <li>Women's Team - play 4 to 6 games during the season</li>
+            <li>
+              Junior Under 16's - the club is planning to have at least one team
+              in the Vancouver & District Saturday Morning League
+            </li>
+            <li>
+              Junior Under 12's Kanga Team - 2 teams will play in the Vancouver
+              & District Saturday Morning League
+            </li>
+            <li>School Cricket - Collingwood School</li>
+            <li>Over 40's team (West Vancouver Taverners)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="description2">
+        <div class="links">
+          <a href="#sec3"
+            ><p class="arrows">&uarr;</p>
+            <p class="words">Team</p></a
+          >
+        </div>
+        <br />
+        <br />
+        <div style="padding: 10px;">
+          <h1>2019 SEASON - SCHEDULE</h1>
+          <p>
+            The BC Mainland Cricket League (BCMCL) is responsible for the
+            schedule and it will be published once the club receives it from the
+            league. The schedeule is usually available in early April. The club
+            plays every Saturday and Sunday at Hugo Ray Park and also travels to
+            other grounds in Metro Vancouver, the Fraser Valley and the
+            Okanagan.
+          </p>
+          <span class="more">
+            <h1>
+              For the 2019 season the club has registered the following teams:
+            </h1>
+            <ul>
+              <li>1st XI - Premier Division</li>
+              <li>2nd XI - Premier Division</li>
+              <li>3rd XI - Division 1</li>
+              <li>4th XI - Division 3</li>
+              <li>5th XI - Division 4</li>
+              <li>6th XI - Division 6</li>
+              <li>7th XI - Division 7 (mostly junior players)</li>
+              <li>Women's Team - play 4 to 6 games during the season</li>
+              <li>
+                Junior Under 16's - the club is planning to have at least one
+                team in the Vancouver & District Saturday Morning League
+              </li>
+              <li>
+                Junior Under 12's Kanga Team - 2 teams will play in the
+                Vancouver & District Saturday Morning League
+              </li>
+              <li>School Cricket - Collingwood School</li>
+              <li>Over 40's team (West Vancouver Taverners)</li>
+            </ul>
+          </span>
+          <button class="read">read more</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer_container">
+        <div class="box_info">
+          <img class="box_info_logo" src="/West-Vancoucer-Clicket-Club/images/logo1.png" alt="WVCC" />
+          <h2 class="box_info_title">West Vancouver Cricket Club</h2>
+          <div class="info">
+            <img src="/West-Vancoucer-Clicket-Club/images/address_icon.svg" alt="address" />
+            <h3>Ray Park1290 Third StreetWest Vancouver, BCV7S 2Y2</h3>
+          </div>
+          <div class="info">
+            <img src="/West-Vancoucer-Clicket-Club/images/phone_icon.svg" alt="phone" />
+            <h3>604-926-0820</h3>
+          </div>
+          <div class="info">
+            <img src="/West-Vancoucer-Clicket-Club/images/mail_icon.svg" alt="mail" />
+            <h3>info@westvancouvercricketclub.ca</h3>
+          </div>
+        </div>
+        <!-- ## BOX INFO ## -->
+        <div class="box_logo">
+          <img src="/West-Vancoucer-Clicket-Club/images/logo1.png" alt="WVCC" />
+        </div>
+        <!-- ## BOX LOGO ## -->
+        <div class="box_socialmedia">
+          <a href="#"><img src="/West-Vancoucer-Clicket-Club/images/facebook_icon.svg" alt="facebook" /></a>
+          <a href="#"><img src="/West-Vancoucer-Clicket-Club/images/twitter_icon.svg" alt="twitter" /></a>
+          <a href="#"
+            ><img src="/West-Vancoucer-Clicket-Club/images/instagram_icon.svg" alt="instagram"
+          /></a>
+          <a href="#"><img src="/West-Vancoucer-Clicket-Club/images/linkedin_icon.svg" alt="linkedin" /></a>
+        </div>
+      </div>
+      <p class="copyright">
+        copyright &copy; 2020 West Vancouver Cricket Club. All rights reserved.
+      </p>
+    </footer>
+    <script src="/West-Vancoucer-Clicket-Club/js/navScrolled_junior_league_women.js"></script>
+  </body>
+</html>
