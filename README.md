@@ -1,4 +1,4 @@
-# West Vancouver Cricket Club company website
+# West Vancouver Cricket Club
 This is a client project to make company website
 
 Website: https://westvan-cricketclub.netlify.app
