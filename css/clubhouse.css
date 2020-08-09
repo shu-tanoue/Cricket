@@ -10,9 +10,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.flexbox-item {
-  background-color: white;
-}
+
 .flexbox-item img {
   width: 100%;
   height: auto;
